@@ -1,6 +1,6 @@
-<main>
-  <div class="testing">
-    testing<span class="dots">
+<main class="flex items-center justify-center min-h-screen bg-zinc-900">
+  <div class="text-5xl font-light text-white">
+    testing<span class="inline-block">
       <span class="dot">.</span>
       <span class="dot">.</span>
       <span class="dot">.</span>
@@ -9,20 +9,13 @@
 </main>
 
 <style>
-  main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
-
-  .testing {
-    font-size: 3rem;
-    font-weight: 300;
-  }
-
-  .dots {
-    display: inline-block;
+  @keyframes fade {
+    0%, 60%, 100% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
   }
 
   .dot {
@@ -40,14 +33,5 @@
 
   .dot:nth-child(3) {
     animation-delay: 0.4s;
-  }
-
-  @keyframes fade {
-    0%, 60%, 100% {
-      opacity: 0;
-    }
-    30% {
-      opacity: 1;
-    }
   }
 </style>
