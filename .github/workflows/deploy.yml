@@ -24,8 +24,6 @@ jobs:
 
       - name: build
         working-directory: my-app
-        env:
-          BASE_PATH: '/my-app'
         run: |
           npm run build
 
