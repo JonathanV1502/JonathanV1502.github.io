@@ -1,0 +1,21 @@
+// Tech icon components - barrel export
+export { default as TypeScriptIcon } from './TypeScriptIcon.svelte';
+export { default as ReactIcon } from './ReactIcon.svelte';
+export { default as DockerIcon } from './DockerIcon.svelte';
+export { default as AwsIcon } from './AwsIcon.svelte';
+export { default as JavaScriptIcon } from './JavaScriptIcon.svelte';
+export { default as GitIcon } from './GitIcon.svelte';
+export { default as GitHubIcon } from './GitHubIcon.svelte';
+export { default as HtmlIcon } from './HtmlIcon.svelte';
+export { default as CssIcon } from './CssIcon.svelte';
+export { default as MySqlIcon } from './MySqlIcon.svelte';
+export { default as JavaIcon } from './JavaIcon.svelte';
+export { default as PythonIcon } from './PythonIcon.svelte';
+export { default as PyTorchIcon } from './PyTorchIcon.svelte';
+export { default as TensorFlowIcon } from './TensorFlowIcon.svelte';
+export { default as UnityIcon } from './UnityIcon.svelte';
+export { default as CSharpIcon } from './CSharpIcon.svelte';
+export { default as RubyIcon } from './RubyIcon.svelte';
+export { default as JaxIcon } from './JaxIcon.svelte';
+export { default as ScikitLearnIcon } from './ScikitLearnIcon.svelte';
+export { default as NumpyIcon } from './NumpyIcon.svelte';

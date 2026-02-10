@@ -1,1 +1,22 @@
 @import 'tailwindcss';
+
+@theme {
+	/* Pure black and white theme */
+	--color-black: #000000;
+	--color-white: #ffffff;
+
+	/* Semantic mappings */
+	--color-background: var(--color-black);
+	--color-surface: var(--color-black);
+	--color-text-primary: var(--color-white);
+	--color-text-secondary: var(--color-white);
+	--color-text-muted: var(--color-white);
+	--color-border: var(--color-white);
+	--color-accent: var(--color-white);
+}
+
+/* Prevent white background on overscroll */
+html,
+body {
+	background-color: var(--color-background);
+}

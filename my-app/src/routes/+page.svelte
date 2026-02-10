@@ -1,46 +1,29 @@
-<h1 style="color: #ee6c4d;">
-  Thinking<span class="dots"></span>
-</h1>
+<script lang="ts">
+	import ExperienceTimeline from '$lib/components/experience/ExperienceTimeline.svelte';
+	import EducationTimeline from '$lib/components/education/EducationTimeline.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import { workExperiences } from '$lib/data/experience-data';
+	import { educations } from '$lib/data/education-data';
+</script>
 
-<style lang="postcss">
-  @reference "tailwindcss";
-  :global(html) {
-    background-color: #293241;
-  }
+<div class="min-h-screen bg-background">
+	<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
+		<!-- Header -->
+		<header class="mb-12 sm:mb-16 text-center">
+			<h1 class="text-5xl font-bold text-text-primary mb-2">Jonathan Villarreal</h1>
+			<p class="text-xl text-text-secondary">Software Engineer</p>
+		</header>
 
-  h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-  }
+		<!-- Experience Timeline -->
+		<ExperienceTimeline experiences={workExperiences} showTimeline={true} title="Experience" />
 
-  .dots {
-    display: inline-block;
-    width: 3ch;
-    text-align: left;
-  }
+		<!-- Spacing between sections -->
+		<div class="my-16"></div>
 
-  .dots::after {
-    content: '';
-    animation: dots 1.5s steps(4, end) infinite;
-  }
+		<!-- Education Timeline -->
+		<EducationTimeline educations={educations} showTimeline={true} title="Education" />
 
-  @keyframes dots {
-    0%, 20% {
-      content: '';
-    }
-    40% {
-      content: '.';
-    }
-    60% {
-      content: '..';
-    }
-    80%, 100% {
-      content: '...';
-    }
-  }
-</style>
+		<!-- Footer with Resume Download -->
+		<Footer />
+	</div>
+</div>
