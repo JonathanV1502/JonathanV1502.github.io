@@ -41,7 +41,7 @@ export const workExperiences: WorkExperience[] = [
 			'Collaborated with doctoral student, presented our progress in weekly lab meetings',
 			'Developed Deep Operator Network for physics modeling'
 		],
-		technologies: ['Python', 'PyTorch', 'TensorFlow', 'JAX', 'scikit-learn', 'NumPy', 'Git', 'GitHub']
+		technologies: ['Python', 'PyTorch', 'JAX', 'scikit-learn', 'NumPy', 'Git', 'GitHub']
 	},
 	{
 		id: '3',
