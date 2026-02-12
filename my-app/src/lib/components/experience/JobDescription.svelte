@@ -10,9 +10,9 @@
 
 <div class="space-y-3">
 	{#if isArray}
-		<ul class="list-disc list-inside space-y-2 text-text-secondary">
+		<ul class="list-disc list-outside ml-5 space-y-2 text-text-secondary">
 			{#each content as item}
-				<li>{item}</li>
+				<li class="pl-1">{item}</li>
 			{/each}
 		</ul>
 	{:else}
