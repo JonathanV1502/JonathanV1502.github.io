@@ -35,8 +35,8 @@ export const workExperiences: WorkExperience[] = [
 		startDate: new Date(2023, 8, 1),
 		endDate: new Date(2024, 3, 1),
 		description: [
+			'Published Context-Aware Implicit Neural Representation research in <a href="https://www.nature.com/articles/s41598-025-11092-w" target="_blank" rel="noopener noreferrer">Scientific Reports</a>',
 			'Replicated and designed Implicit Neural Representations experiments for data compression',
-			'Successfully applied deep learning data compression techniques on micro-CT scans',
 			'Achieved compression rate of 55:1, results were used for lab\'s future work proposal',
 			'Collaborated with doctoral student, presented our progress in weekly lab meetings',
 			'Developed Deep Operator Network for physics modeling'
