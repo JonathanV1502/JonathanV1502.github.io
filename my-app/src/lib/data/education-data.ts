@@ -6,9 +6,9 @@ export const educations: Education[] = [
 		school: 'Texas State University',
 		degree: 'Bachelor of Science',
 		major: 'Computer Science',
-		minor: 'Mathematics',
+		minor: 'Applied Mathematics',
 		location: 'San Marcos, TX',
-		startDate: new Date(2020, 8, 1), // September 2020 (month is 0-indexed)
-		endDate: new Date(2024, 4, 15) // May 2024
+		startDate: new Date(2020, 8, 1),
+		endDate: new Date(2024, 4, 15)
 	}
 ];
