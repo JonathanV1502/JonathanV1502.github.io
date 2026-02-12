@@ -8,7 +8,7 @@ export const educations: Education[] = [
 		major: 'Computer Science',
 		minor: 'Applied Mathematics',
 		location: 'San Marcos, TX',
-		startDate: new Date(2020, 8, 1),
+		startDate: new Date(2020, 7, 15),
 		endDate: new Date(2024, 4, 15)
 	}
 ];
