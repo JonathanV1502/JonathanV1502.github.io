@@ -15,4 +15,8 @@
 			Download Resume
 		</LinkButton>
 	</div>
+
+	<div class="mt-6 text-text-secondary">
+		jonathanvillarreal.jmv@gmail.com
+	</div>
 </footer>
